@@ -19,7 +19,8 @@ public class Authenticator {
 
   }
 
-  public static Customer logout(Customer customer) {
+  public static void logout(Customer customer) {
     customer.setAuthenticated(false);
+
   }
 }
